@@ -2,7 +2,8 @@
 {
 	margin:0;
 	padding:0;
-	box-sizing: border-box;  
+	box-sizing:border-box;
+	 
 
 }
 body
@@ -12,6 +13,7 @@ body
 
 
 }
+
 
 body .smooth-container { scroll-behavior: smooth }
 .navbarfixed
@@ -50,13 +52,7 @@ p
 	color:white !important; 
 }
 
-@media screen and (max-width: 960px)
-{
-	#why-empc
-	{
-		width:900px;	 
-	}
-}
+
 
 .ceo-banner
 {
@@ -68,6 +64,15 @@ background:#dff9fb;
 color:rgb(85, 90, 100);
 height:600px;   
 }
+@media screen and (max-width:768px)
+{
+    .ceo-banner
+    {
+        width:100%;
+        height:auto;
+    }
+}
+
 #ceobox
 {
 	width:400px;
@@ -136,6 +141,14 @@ padding:25px;
 	line-height:2em;  
 	text-align:center;
 
+}
+@media screen and (max-width:768px)
+{
+ #pricing,.table-box,.table-header
+ {
+     width:auto;
+     height:auto;
+ }
 }
 
 .table-box ul li 
@@ -435,5 +448,5 @@ figcaption
 	background:#dff9fb;
 	color:black;   
 	font-size:1em;
-	border-radius:20px;  
+
 }
